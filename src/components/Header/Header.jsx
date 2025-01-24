@@ -30,7 +30,7 @@ const Header = () => {
           {/* Les onglets */}
           <nav className="hidden lg:flex flex-row items-center text-lg font-medium gap-8">
             <Link
-              to="home"
+              to="Accueil"
               spy={true}
               smooth={true}
               duration={500}
@@ -45,7 +45,7 @@ const Header = () => {
               duration={500}
               className="hover:text-[#FFB400] transition-all  cursor-pointer"
             >
-              A propos
+              A propos de moi
             </Link>
             <Link
               to="services"
@@ -72,7 +72,7 @@ const Header = () => {
               duration={500}
               className="hover:text-[#FFB400] transition-all  cursor-pointer"
             >
-              Expérience
+              Expériences
             </Link>
             <Link
               to="portefolio"
@@ -108,7 +108,7 @@ const Header = () => {
             className="hover:text-[#FFB400] transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Home
+            Accueil
           </Link>
 
           <Link
@@ -119,7 +119,7 @@ const Header = () => {
             className="hover:text-[#FFB400] transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            About Me
+            A propos de moi
           </Link>
 
           <Link
@@ -141,7 +141,7 @@ const Header = () => {
             className="hover:text-[#FFB400] transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Education
+            Educations
           </Link>
 
           <Link
@@ -152,7 +152,7 @@ const Header = () => {
             className="hover:text-[#FFB400] transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Experience
+            Experiences
           </Link>
 
           <Link
