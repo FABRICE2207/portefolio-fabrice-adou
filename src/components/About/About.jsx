@@ -6,7 +6,8 @@ const About = () => {
   const skill1 = "w-4/12";
   const skill2 = "w-6/12";
   const skill3 = "w-7/12";
-  const skill4 = "w-6/12";
+  const skill4 = "w-5/12";
+  const skill5 = "w-6/12";
 
   return (
     <div className='min-h-screen flex flex-col justify-around lg:px-32 bg-[#F0F0F6]'>
@@ -17,10 +18,9 @@ const About = () => {
       <div>
         <div className='-mt-90'>
           {/* <h2></h2> */}
-          <p className='mt-4 lg:mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Rem numquam est harum deserunt blanditiis impedit optio, 
-            quasi, ad modi autem culpa aliquid nihil unde officiis. 
-            Velit cupiditate officiis quis autem?</p>
+          <p className='mt-4 lg:mt-2 text-center'>Jeune, passionné avec trois (3) années d'expérience, j’utilise
+            mes compétences pour résoudre vos problèmes en solution informatique éfficaces et évolutives
+          </p>
         </div>
 
         <div className='mt-5'>
@@ -29,7 +29,8 @@ const About = () => {
             <SkillsCard title="React JS" width={skill1} val="40%"/>
             <SkillsCard title="React Native" width={skill2} val="50%"/>
             <SkillsCard title="Pyhton (Flask)" width={skill3} val="55%"/>
-            <SkillsCard title="Figma" width={skill4} val="50%"/>
+            <SkillsCard title="Photoshop" width={skill4} val="45%"/>
+            <SkillsCard title="Figma" width={skill5} val="50%"/>
           </div>
         </div>
       </div>
