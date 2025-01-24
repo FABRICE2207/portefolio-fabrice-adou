@@ -45,7 +45,7 @@ const Header = () => {
               duration={500}
               className="hover:text-[#FFB400] transition-all  cursor-pointer"
             >
-              A propos de moi
+              A propos
             </Link>
             <Link
               to="services"
